@@ -1,11 +1,7 @@
-* {
-	box-sizing: edge box;
-}
-body {
+body 
+{
 	background-color: #fffbf7;
-	margin-top: 250px;
-	text-align: center;
-	font-family: "'Lato', sans-serif;"
+
 }
 
  .header {
@@ -15,7 +11,7 @@ body {
 	font-size: 0;
 	line-height: 45px;
 	height: 100%;
-	vertical-align:middle;
+	
 }
 
 .header > * {
@@ -38,17 +34,7 @@ body {
 	color: #025157;
 	font-weight: 500;
 }
-.menu-item{
-	margin: 0px, 25px;
-	color: #025157;
-}
-/**/
-li{
-display: inline;
-}
-.logo>img{
-	height: 100%;
-}
+
 .actions {
 	width: 15%;
 	text-align: right;
@@ -64,15 +50,29 @@ display: inline;
 	background-color:#67b54b;
 	fill:12px, 14px;
 	border-radius:5px;
-	edge:none;
+
 	color:#fff;
 }
+.menu-item{
+	margin: 0px, 25px;
+	color: #025157;
+}
+/**/
+li{
+display: inline;
+}
+.logo>img{
+	height: 100%;
+}
+
 h1{
 	color : #025157;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	text-align:center;
-	font-size: 60px;
+	font-size: 70px;
 	font-weight:400;
+}
+body{margin-top: 184px;
 }
 h3{
 font-size: 60px;
@@ -81,7 +81,7 @@ padding-left: 15px;
 color:#025157;
 text-align: left;
 }
-h4{
+h2{
 	color:#46484c;
 	text-align:center;
 }
@@ -117,9 +117,12 @@ form{
 	text-align:center;
 }
 .form1{
-	text-align:left;
-}
-.images{
+	text-align:left;}
+
+
+.images
+
+{
 
 }
 .actions{
@@ -128,7 +131,7 @@ form{
 .test{
 	background-color:#67b54b;
 	fill:12px 14px;
-	edge:0px;
+	border:0px;
 	border-radius:5px;
 	font-size:14px;
 	margin-left:15px;
@@ -140,7 +143,7 @@ p{
 	text-align:center;
 }
 image{
-	screen:block;
+	order: block;
 	margin: 0px;
 }
 input[type=send]{
@@ -162,7 +165,9 @@ border-radius: 0px 8px 8px 0px;
 margin-left: -2px;
 cursor: pointer;
 }
-.publish {
+
+.publish 
+{
 	/* container styles if any */
   }
   
@@ -215,8 +220,32 @@ cursor: pointer;
 
 
   .promo{
-	  display: flex;
-	  width: 70%;
-	  margin: 100px auto;
-	  align-items: center;
-  }
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.publish {
+    flex: 1;
+}
+
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
